@@ -1,0 +1,72 @@
+/* portfolioのCSSの始まり */
+#portfolio {
+  background-image: url("../images/GOPR3410copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+#portfolio #wrap {
+  background-color: white;
+  margin-top: 220px;
+  padding:35px 0;
+}
+
+
+#portfolio .main {
+  width: 700px;
+  margin: 0 10px ;
+  float: left;
+}
+#portfolio .main img{
+  width:450px;
+  margin-bottom:13px;
+}
+.main h1{
+  border-bottom:1px solid #CCCCCC
+}
+.main p{
+padding-right: 5px;
+padding-bottom: 0px;
+}
+.contents{
+  width:960px;
+  margin:50px;
+}
+.main{
+  float:left;
+  width:660px;
+  margin: 0 40px 0 10px;
+}
+/* サイドバーの開始 */
+.sidebar{
+  float:right;
+  margin: 0 10px 0 30px;
+  width: 200px;
+  font-family: "Bitter",serif;
+  padding-top:40px;
+}
+.sidebar h2{
+  margin-bottom:10px;
+}
+.sidebar ul{
+  margin-bottom:20px;
+  padding-left:15px;
+}
+.sidebar li a{
+  text-decoration: none;
+  color:#333333;
+}
+.sidebar li a:hover{
+  font-weight: bolder;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+  clear:both;
+}
+/* サイドバーの終わり */
+
+/* portfolioのCSSの終わり */

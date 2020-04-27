@@ -1,0 +1,264 @@
+p,h1,h2,h3,h4,h5,h6{
+  margin-top:0;
+}
+img{
+  vertical-align: bottom;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 21.5px;
+}
+body{
+  padding:0;
+  margin:0 auto;
+  font-size:15px;
+  line-height:2;
+  color:inherit; white;
+}
+li a{
+  text-decoration: none;
+  color:white;
+}
+li a:hover{
+  text-decoration: underline;
+}
+header{
+  width:960px;
+  height:100px;
+  margin:0 auto;
+  margin-bottom:60px;
+}
+.logo {
+  float:left;
+  margin-top: 30px;
+  border: 2px solid:
+}
+.logo img{
+  width:350px;
+}
+.top-menu {
+  float: right;
+  margin-top: 100px;
+}
+.top-menu li {
+  float:left;
+  margin:0 20px;
+  font-size:20px;
+  list-style:none;
+
+}
+.top-menu li a {
+  color:white;
+  font-family: 'Londrina Shadow', cursive;
+}
+li a:hover{
+  border-bottom: 2px solid ;
+  padding-bottom:3px;
+  text-decoration: none
+}
+footer{
+  clear: both;
+  width: 960px;
+  font-weight: bold;
+  font-family: 'Londrina Shadow', cursive;
+  margin:0 auto;
+  text-align: center;
+  color: white;
+  margin-top:50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer small{
+  font-size:20px;
+}
+.centerbar {
+  width:960px;
+  height:auto;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.centerbar ul{
+  display: inline-block;
+  margin: auto;
+}
+
+.centerbar li {
+  float: left;
+  margin-right: 35px;
+  margin-left: 35px;
+  list-style:none;
+}
+.centerbar li a{
+  color: white;
+  font-family: 'Londrina Shadow', cursive;
+}
+span {
+  font-size: 14px;
+}
+/* WrapのCSSここから */
+#wrap {
+  width:960px;
+  margin: 0 auto;
+  clear: both;
+  color: white;
+  margin-top:60px;
+}
+#wrap p {
+  margin-top: 20px;
+}
+/* wrapのCSSの終わり */
+
+.content {
+  width:960px;
+  margin:0 auto;
+}
+
+/* indexのCSSの始まり */
+#index h1 {
+  font-size: 45px;
+  line-height:1;
+  text-align: right;
+  margin-top: 150px;
+  color:white
+  font-weight:bold;
+  margin-right: 10px;
+  font-family: 'Londrina Shadow', cursive;
+
+}
+#index content {
+  margin-top:150px;
+}
+#index {
+  background-image: url("../images/GOPR3410-copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover ;
+  color:white;
+  background-attachment: fixed;
+}
+#index footer {
+  text-align:right;
+}
+#index p{
+  text-align: right;
+}
+/* indexnのCSSを終わり */
+
+
+/* Contactの始まり */
+
+body {
+  background-image: url("../images/GOPR3410-copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 36px;
+  border-bottom: 4px solid #cccccc;
+  padding-left: 30px;
+  padding-right:30px;
+  font-family: 'Londrina Shadow', cursive;
+}
+.sentence {
+  background: rgba(100, 100, 100, 0.7);
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  padding-top:50px;
+  padding-bottom: 50px;
+  line-height: 50px;
+  border: 1px solid ;
+  font-family: 'Noto Serif JP', serif;
+}
+.sentence img{
+  display: block;
+  width:500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Menubarの始まり */
+.menu-photo  {
+  width: 700px;
+  margin: 0 auto;
+  height:150px;
+  text-align: center;
+}
+
+.menu-photo ul{
+  display: inline-block;
+  margin: 10px 0 30px 0;
+}
+
+.menu-photo  li {
+  float: left;
+  margin: 0 30px 0 30px;
+  list-style:none;
+}
+
+.menu-photo li a{
+  color: white;
+  font-size:25px;
+}
+/* Menubarの終わり */
+#photograph .sentence section {
+  text-align: center;
+}
+#photograph .sentence section img {
+  width:420px;
+  height:315px;
+}
+#photograph .photograph-list li{
+  float: left;
+  list-style: none;
+  margin: 0 30px 30px 0;
+  border: 1px solid #cccccc;
+
+}
+#photograph .photograph-list li:nth-child(2n){
+  margin-right: 0;
+}
+.icon{
+  margin: 40px 0 40px 0;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+  clear:both;
+}
+.sentence iframe {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.title-video {
+text-align: center;
+}
+#about .sentence p{
+  font-size: 21.5px;
+}
+#wrap .memory {
+  width: 400px;
+  margin-bottom:30px;
+}
+#about .section-small {
+  margin: 0 auto;
+  margin: 10px 0 60px 0;
+}
+#about .section-small h2 {
+text-align: center;
+}
+#about .section-small p {
+  text-align: center;
+}
